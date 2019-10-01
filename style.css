@@ -186,6 +186,24 @@ button{
 .myImage img{
     border-radius: 50%;
 }
+/********************SOCIAL MEDIA ICONS SECTION********************************************/
+#social-icon{
+    padding-top: 20.5rem;
+    width: 100%;
+}
+
+.icons{
+    text-align: center;
+}
+.icons a{
+    color: #ffffff;
+}
+.icons img:hover  {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition: 1s;
+}
 
 @media (max-width: 400px){
 .toggle-button{
