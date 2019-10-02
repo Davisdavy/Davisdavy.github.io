@@ -159,6 +159,36 @@ button{
     top: 55.5%;
     left: 45%;
   } 
+
+.border-around{
+    border: 1.5px solid #ffffff;
+    position: relative;
+    border-radius: 5%;
+    left: 39%;
+    font-size: 25px;
+    padding: 1.2rem;
+}
+.intouch{
+    padding-top: 8%;
+}
+a{
+    color: #ffffff;
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: rgb(202, 73, 21);
+    transition: 1s;
+}
+.social-icon{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10rem;
+}
+.social-icon p{
+    display: none;
+}
+
   .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,
@@ -223,4 +253,34 @@ button{
 .navbar-links.active{
     display: flex;
     }
+.pra{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    
+}
+.border-around{
+    border: 1.5px solid #ffffff;
+    position: relative;
+    border-radius: 5%;
+    left: 15%;
+    font-size: 20px;
+    padding: 1rem;
+}
+.intouch{
+    padding-top: 30%;
+}
+.social-icon{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10rem;
+}
+.social-icon p{
+    display: inherit;
+}
+.social-icon i{
+    display: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 }
